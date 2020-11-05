@@ -157,6 +157,15 @@
         width: 10px;
         height: 10px;
     }
+
+    .top-slider-new .info {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -167,14 +176,6 @@
     .top-slider-new {
         margin-left: -15px;
         margin-right: -15px;
-    }
-    .top-slider-new .info {
-        padding-top: 0;
-        padding-bottom: 0;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     .top-slider-new .info .name {
         font-size: 25px;
