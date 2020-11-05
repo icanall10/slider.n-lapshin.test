@@ -8,7 +8,7 @@
             dots: true,
             loop: true,
             margin: 20,
-            // autoplay: true,
+            autoplay: true,
             autoplayTimeout: 6000,
             autoplayHoverPause: true
         });
